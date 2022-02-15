@@ -1,0 +1,376 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: #000000;
+    color: #999999;
+    
+
+}
+
+.btn{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    outline: none;
+    box-shadow: 0 5px 3px rgba(0,0,0,0.45);
+}
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn-rounded{
+border-radius: 5px;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: #ffffff;
+}
+
+P{
+    color: #ffffff;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background:  url(../netflix/assestes/images/IN-en-20220131-popsignuptwoweeks-perspective_alpha_website_medium.jpg) no-repeat center center/cover;
+}
+
+.header::after{
+    content: ' ';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:1;
+    background: rgba(0,0,0,0.4);
+    box-shadow: 120px 120px 250px #000000,
+                 inset  -120px -100px 250px #000000;
+
+
+}
+
+.start{
+    position: relative;
+    z-index: 2;
+    height: 5.8rem;
+}
+.start img{
+    width: 9rem;
+    position: absolute;
+    top:50%;
+    left: 0;
+    transform: translate(40%,-50%);
+}
+
+.start .sign-in{
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translate(-60%,-50%);
+}
+ .last{
+
+    position: relative;
+    margin: 0.15%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    text-align: center;
+ }
+
+ .last h1{
+
+   
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0.2rem;
+    max-width: 40rem;
+    line-height: 1.2;
+ }
+
+ .last h3{
+     
+    
+     font-size: 1.5rem;
+    
+     max-width: 1rem 0;
+    
+  }
+
+  .last p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-top: 0.1rem;
+    padding-bottom: 0.5rem;
+   
+  }
+
+  .last input{
+      position: absolute;
+      
+      left: 23%;
+      bottom: -8vh;
+      width: 33rem;
+      height: 3.2rem;
+      font-size: 1rem;
+      padding-left: 0.5rem;
+  }
+
+  .last .btn-lg {
+      position: absolute;
+      right: 23%;
+      bottom: -8vh;
+      font-size: 1.5rem;
+      
+  }
+
+  .card-1{
+      border-top: 8px rgba(69 69 69) solid;
+      padding: 3.5rem;
+  }
+
+  .card-1{
+      position: relative;
+      display: grid;
+      grid-template-columns: 50% 40%;
+      
+      text-align: left;
+      align-items: center;
+      padding: 1.5rem 3rem 3.5rem;
+  }
+
+  .desc-1{
+      padding-left: 5rem;
+  }
+
+  .card-1  h2{
+      font-size: 3rem;
+      padding: 1rem;
+      padding-left: 1;
+  }
+
+  .card-1 h3{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.card-1 video{
+    position: relative;
+    width: 100%;
+    height: 85%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+
+}
+
+.card-1 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.card-2{
+    border-top: 8px rgb(66, 65, 65) solid;
+    padding: 3.5rem;
+}
+
+.card-2{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+}
+
+.card-2  h2{
+    font-size: 3rem;
+    
+}
+
+.card-2  h3{
+    font-size: 1.5rem;
+    
+}
+
+.card-3{
+    border-top:0.5rem rgba(146, 140, 140, 0.45)solid;
+   
+}
+
+.card-3{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+
+}
+.card-3 video{
+    position: relative;
+    width: 60%;
+    height: 85%;
+    top: -19%;
+    right: -20%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+
+}
+
+.card-3  h2{
+    font-size: 3rem;
+   
+    padding-left: 4rem;
+
+}
+
+.card-3 h3{
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding-left: 4rem;
+}
+.card-3 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.card-4{
+    border-top: 0.5rem rgba(59, 57, 57, 0.4)solid;
+}
+
+.card-4{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+    top: -20%;
+}
+
+.card-4 img{
+
+    height: 60%;
+}
+
+.card-4 h2{
+    font-size: 3rem;
+}
+
+.card-4 h3{
+    font-size: 1.5rem;
+}
+
+.card-2 {
+border-bottom: 0.5rem rgba(56, 55, 55, 0.45)solid;
+}
+
+ul{
+    list-style: none;
+}
+
+.card-5 h2{
+
+    font-size: 3rem;
+}
+
+.card-5{
+    text-align: center;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+    color: #ffffff;
+
+}
+.card-5 li{
+    padding: 1.5rem 4rem;
+    
+    margin: 5px;
+    font-size: 1.8rem;
+    background: #303030;
+    width: 50rem;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.card-5 p{
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+
+.card-5 input{
+    position: relative;
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: 50% 40%;
+}
+
+.input input{
+
+    position: absolute;
+      
+      left: 23%;
+      font-size: 1rem;
+      padding-left: 0.5rem;
+    width: 33rem;
+    height: 3.2rem;
+    
+}
+
+.input .btn-lg {
+    position: absolute;
+    right: 24%;
+    
+    font-size: 1.5rem;
+    
+    
+}
+
+.footer p{
+    padding-top: 7rem;
+    padding-left: 7rem;
+    color: #999999;
+}
+
+.footer-cols{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-cols li a{
+
+color: #999999;
+
+font-size: 0.8rem;
+}
+
+.footer-cols li{
+
+    padding: 0.5rem;
+}
+
