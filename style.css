@@ -83,7 +83,7 @@ P{
 }
 
 .start .sign-in{
-    position: absolute;
+    position: relative;
     top:50%;
     right: 0;
     transform: translate(-60%,-50%);
@@ -129,7 +129,7 @@ P{
   }
 
   .last input{
-      position: absolute;
+      position: relative;
       
       left: 23%;
       bottom: -8vh;
@@ -140,7 +140,7 @@ P{
   }
 
   .last .btn-lg {
-      position: absolute;
+      position: relative;
       right: 23%;
       bottom: -8vh;
       font-size: 1.5rem;
@@ -331,7 +331,7 @@ ul{
 
 .input input{
 
-    position: absolute;
+    position: relative;
       
       left: 23%;
       font-size: 1rem;
@@ -342,7 +342,7 @@ ul{
 }
 
 .input .btn-lg {
-    position: absolute;
+    position: relative;
     right: 24%;
     
     font-size: 1.5rem;
