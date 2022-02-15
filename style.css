@@ -51,12 +51,12 @@ P{
     width: 100%;
     height: 100vh;
     position: relative;
-    background:  url(../netflix/assestes/images/IN-en-20220131-popsignuptwoweeks-perspective_alpha_website_medium.jpg) no-repeat center center/cover;
+    background:  url(./assestes/images/IN-en-20220131-popsignuptwoweeks-perspective_alpha_website_medium.jpg) no-repeat center center/cover;
 }
 
 .header::after{
     content: ' ';
-    position: relative;
+    position: absolute;
     top:0;
     left: 0;
     width: 100%;
@@ -83,7 +83,7 @@ P{
 }
 
 .start .sign-in{
-    position: relative;
+    position: absolute;
     top:50%;
     right: 0;
     transform: translate(-60%,-50%);
@@ -129,7 +129,7 @@ P{
   }
 
   .last input{
-      position: relative;
+      position: absolute;
       
       left: 23%;
       bottom: -8vh;
@@ -140,7 +140,7 @@ P{
   }
 
   .last .btn-lg {
-      position: relative;
+      position: absolute;
       right: 23%;
       bottom: -8vh;
       font-size: 1.5rem;
@@ -331,7 +331,7 @@ ul{
 
 .input input{
 
-    position: relative;
+    position: absolute;
       
       left: 23%;
       font-size: 1rem;
@@ -342,7 +342,7 @@ ul{
 }
 
 .input .btn-lg {
-    position: relative;
+    position: absolute;
     right: 24%;
     
     font-size: 1.5rem;
